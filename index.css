@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+.img{
+    height: 75rem;
+    width: 100%;
+    background-image: url(rear-view-programmer-working-all-night-long_1098-18697.avif);
+    background-size: cover;
+}
+
+.txt{
+    color: white;
+    font-size: 5rem;
+    margin-left: 20rem;
+}
+
+.txt1{
+    color: white;
+    font-size: 2rem;
+}
+
+.head{
+    display: inline-block;
+    padding-top: 13rem;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 100%;
+    background-color: black;
+}
+
+.h1{
+    color: white;
+    font-size: 5rem;
+}
+
+.word{
+    font-size: 9rem;
+}
+
+.main{
+    height: 65rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.same{
+    height: 50rem;
+    width: 40rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(1,1 ,1, 0.2);
+    transition: all 0.3s ease;
+}
+
+.same:hover{
+    transform: scale(1.04);
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(1,1 ,1, 0.3);
+    transition: all 0.3s ease;
+}
+.im{
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    height: 25rem;
+    width: 100%;
+}
+
+.th{
+    margin: 1rem 2rem;
+    color: black;
+    font-size: 3rem;
+}
+
+.para{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40rem;
+    /* background-color: black; */
+    width: 100%;
+}
+
+.b1{
+    background-color: rgb(68, 83, 17);
+    height: 30rem;
+    flex-basis: 49.80%;
+}
+
+
+.b2{
+    background-color: rgb(218, 67, 21);
+    height: 30rem;
+    flex-basis: 49.80%;
+}
+
+
+.b3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 10rem;
+    flex-basis: 100%;
+    color: white;
+}
+
+.he{
+    font-size: 3rem;
+    margin: 2rem 5rem;
+}
+
+.para1{
+    font-size: 2rem;
+    margin: 2rem 5rem;
+}
+
+.hov:hover{
+    border: 2px solid white;
+}
+
+@media screen and (max-width:600px)
+{
+    .img{
+        height: 30rem;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .txt{
+        color: white;
+        font-size: 1.9rem;
+        margin-left: 1rem;
+    }
+    
+    .txt1{
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .head{
+        display: inline-block;
+        padding-top: 5rem;
+    }
+
+    .div1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6rem;
+        width: 100%;
+        background-color: black;
+    }
+    
+    .h1{
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    .word{
+        font-size: 2rem;
+    }
+
+    .main{
+        height: 70rem;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin-top: 60rem;
+    }
+
+    .same{
+        height: 70rem;
+        margin-top: 2rem;
+        width: 26rem;
+        background-color: white;
+        border-radius: 2rem;
+        box-shadow: 0.5rem 0.5rem 0.5rem rgba(1,1 ,1, 0.2);
+        transition: all 0.3s ease;
+    }
+
+    .foot{
+        display: flex;
+        flex-direction: row;
+        margin-top: 65rem;
+        height: 40rem;
+        width: 100%;
+    }
+
+    .b1{
+        height: 50rem;
+        flex-basis: 100%;
+    }
+    
+    
+    .b2{
+        height: 65rem;
+        flex-basis: 100%;
+    }
+    
+    
+    .b3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.78rem;
+        height: 5rem;
+        flex-basis: 100%;
+        color: white;
+    }
+    
+}
