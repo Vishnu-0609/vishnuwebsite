@@ -192,7 +192,7 @@ html{
         margin-top: 2rem;
         width: 26rem;
         background-color: white;
-        border-radius: 2rem;
+        border-radius: 5rem;
         box-shadow: 0.5rem 0.5rem 0.5rem rgba(1,1 ,1, 0.2);
         transition: all 0.3s ease;
     }
@@ -200,7 +200,7 @@ html{
     .foot{
         display: flex;
         flex-direction: row;
-        margin-top: 65rem;
+        margin-top: 80rem;
         height: 40rem;
         width: 100%;
     }
